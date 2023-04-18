@@ -1,9 +1,7 @@
+/*geral*/
+
 @charset "UTF-8";
 
-* {
-
-}
-
 html {
-    font-family: 'Open Sans' sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
