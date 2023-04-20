@@ -12,6 +12,11 @@
     100% {height: 100px;}
 }
 
+@keyframes animacao3 {
+    from {left: 0;}
+    to {left: 200px; background-color: green;}
+}
+
 .animation-div {
     width: 100px;
     height: 100px;
@@ -27,4 +32,50 @@
     animation-name: animacao2;
     animation-duration: 6s;
     position: relative;
+}
+
+.animation-div3 {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    position: relative;
+    animation-name: animacao3;
+    animation-duration: 5s;
+    animation-delay: .2s;
+    animation-iteration-count: 3;/*com isso eu defino que a animação rode 3 vezes*/
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacao4{
+from {left: 0;}
+to {left: 500px; background-color: green;}
+}
+.box {
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: animacao4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#animation-div4 {
+    animation-timing-function: linear;/*animação linear*/
+}
+
+#animation-div5 { 
+    animation-timing-function: ease;/*começa devagar, no meio é rápido, no fim fica devagar de novo*/
+}
+
+#animation-div6 {
+    animation-timing-function: ease-in;/*tem apenas o início lento e depois deixa padrão o resto da velocidade*/
+}
+
+#animation-div7 {
+    animation-timing-function: ease-out;/*o fim da animação se torna lento*/
+}
+
+#animation-div8 {
+    animation-timing-function: ease-in-out;/*começo e fim são lentos*/
 }
