@@ -50,11 +50,28 @@
     <div>
         <p contenteditable="true">Este é um parágrafo que pode ser editado.</p><!--Agora eu posso editar o parágrafo diretamente da página-->
     </div>
-    <aside>
-        <p>Confira os nossos produtos</p>
-    </aside>
-        <p>Confira os nossos produtos <a href="#">Clicando aqui!</a></p>
     </article>
+    <aside>
+        <p>Confira os nossos produtos <a href="#">Clicando aqui!</a></p>
+    </aside>
+    <details open="open">
+        <summary>Cachorro</summary>
+        <p>É um mamímero de 4 patas e também é um anima doméstico.</p>
+    </details>
+    <details>
+        <summary>Gato</summary>
+        <p>É um mamímero de 4 patas e também é um anima doméstico.</p>
+    </details>
+    <form action="">
+        <p>Animais:</p>
+        <input list="animais" name="animal">
+            <datalist id="animais">
+                <option value="Cachorro"></option>
+                <option value="Gato"></option>
+                <option value="Cavalo"></option>
+                <option value="Elefante"></option>
+            </datalist>
+    </form>
     <footer>
         <p>Rodapé</p>
     </footer>
