@@ -191,3 +191,15 @@ to {left: 500px; background-color: green;}
 .gradient6 {
     background-image: linear-gradient(red, green, blue, yellow, black, gray);
 }
+
+.gradient7 {
+    background-image: radial-gradient(#323042, #DB9D47, #FF784F);
+}
+
+.gradient8 {
+    background-image: radial-gradient(#323042 10%, #DB9D47 30%, #FF784F);
+}
+
+.gradient9 {
+    background-image: radial-gradient(circle,  #323042, #DB9D47, #FF784F);
+}
