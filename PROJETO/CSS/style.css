@@ -242,3 +242,22 @@ to {left: 500px; background-color: green;}
         background-color: pink;
     }
 }
+
+/*border radius*/
+
+.div-border {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    margin: 20px;
+}
+
+.border-radius1 {
+    border-radius: 50%;
+}
+
+.border-radius2 {
+    border-radius: 10px 900px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 30px;
+}
